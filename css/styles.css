@@ -19,9 +19,9 @@ canvas {
     top: 20px;
     right: 20px;
     z-index: 2000;
-    background: #003300;
-    color: #00ff00;
-    border: 2px solid #00ff00;
+    background: #120025;
+    color: #7900ff;
+    border: 2px solid #7900ff;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -41,7 +41,7 @@ canvas {
 }
 
 #twitter-button svg {
-    fill: #00ff00;
+    fill: #7900ff;
 }
 
 #loading-screen {
@@ -54,7 +54,7 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #00ff00;
+    color: #7900ff;
     font-family: monospace;
     z-index: 1000;
 }
@@ -63,7 +63,7 @@ canvas {
     max-width: 800px;
     padding: 40px;
     background-color: rgba(0, 20, 0, 0.8);
-    border: 2px solid #00ff00;
+    border: 2px solid #7900ff;
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
     text-align: center;
 }
@@ -71,7 +71,7 @@ canvas {
 .lore-container h1 {
     font-size: 36px;
     margin-bottom: 30px;
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px #7900ff;
     letter-spacing: 4px;
     animation: glow 2s infinite alternate;
 }
@@ -85,7 +85,7 @@ canvas {
 
 .lore-text p {
     margin: 15px 0;
-    color: #00cc00;
+    color: #7900ff;
 }
 
 .warning {
@@ -108,9 +108,9 @@ canvas {
 #enter-button {
     padding: 15px 40px;
     font-size: 20px;
-    background-color: #001100;
-    border: 2px solid #00ff00;
-    color: #00ff00;
+    background-color: #120025;
+    border: 2px solid #7900ff;
+    color: #7900ff;
     cursor: pointer;
     font-family: monospace;
     transition: all 0.3s ease;
@@ -142,9 +142,9 @@ canvas {
     top: 20px;
     left: 20px;
     padding: 10px 20px;
-    background-color: #003300;
-    border: 2px solid #00ff00;
-    color: #00ff00;
+    background-color: #120025;
+    border: 2px solid #7900ff;
+    color: #7900ff;
     font-family: monospace;
     font-size: 16px;
     cursor: pointer;
@@ -162,7 +162,7 @@ canvas {
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    color: #00ff00;
+    color: #7900ff;
     font-family: monospace;
     font-size: 24px;
     font-weight: bold;
@@ -179,10 +179,10 @@ canvas {
 
 @keyframes glow {
     from {
-        text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+        text-shadow: 0 0 5px #7900ff, 0 0 10px #7900ff;
     }
     to {
-        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+        text-shadow: 0 0 10px #7900ff, 0 0 20px #7900ff;
     }
 }
 
