@@ -20,8 +20,8 @@ canvas {
     right: 20px;
     z-index: 2000;
     background: #120025;
-    color: #7900ff;
-    border: 2px solid #7900ff;
+    color: #ee00ff;
+    border: 2px solid #ee00ff;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -37,11 +37,11 @@ canvas {
 
 #twitter-button:hover {
     background: #00440000;
-    box-shadow: 0 0 15px #7900ff;
+    box-shadow: 0 0 15px #ee00ff;
 }
 
 #twitter-button svg {
-    fill: #7900ff;
+    fill: #ee00ff;
 }
 
 #loading-screen {
@@ -54,7 +54,7 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #7900ff;
+    color: #ee00ff;
     font-family: monospace;
     z-index: 1000;
 }
@@ -63,15 +63,15 @@ canvas {
     max-width: 800px;
     padding: 40px;
     background-color: rgba(0, 20, 0, 0.8);
-    border: 2px solid #7900ff;
-    box-shadow: 0 0 20px #7900ff;
+    border: 2px solid #ee00ff;
+    box-shadow: 0 0 20px #ee00ff;
     text-align: center;
 }
 
 .lore-container h1 {
     font-size: 36px;
     margin-bottom: 30px;
-    text-shadow: 0 0 10px #7900ff;
+    text-shadow: 0 0 10px #ee00ff;
     letter-spacing: 4px;
     animation: glow 2s infinite alternate;
 }
@@ -85,7 +85,7 @@ canvas {
 
 .lore-text p {
     margin: 15px 0;
-    color: #7900ff;
+    color: #ee00ff;
 }
 
 .warning {
@@ -109,8 +109,8 @@ canvas {
     padding: 15px 40px;
     font-size: 20px;
     background-color: #120025;
-    border: 2px solid #7900ff;
-    color: #7900ff;
+    border: 2px solid #ee00ff;
+    color: #ee00ff;
     cursor: pointer;
     font-family: monospace;
     transition: all 0.3s ease;
@@ -121,7 +121,7 @@ canvas {
 
 #enter-button:hover {
     background-color: #002200;
-    box-shadow: 0 0 20px #7900ff;
+    box-shadow: 0 0 20px #ee00ff;
     transform: scale(1.05);
 }
 
@@ -143,8 +143,8 @@ canvas {
         right: 20px;
         z-index: 2000;
         background: #120025;
-        color: #7900ff;
-        border: 2px solid #7900ff;
+        color: #ee00ff;
+        border: 2px solid #ee00ff;
         padding: 10px 20px;
         border-radius: 20px;
         cursor: pointer;
@@ -167,7 +167,7 @@ canvas {
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    color: #7900ff;
+    color: #ee00ff;
     font-family: monospace;
     font-size: 24px;
     font-weight: bold;
@@ -184,10 +184,10 @@ canvas {
 
 @keyframes glow {
     from {
-        text-shadow: 0 0 5px #7900ff, 0 0 10px #7900ff;
+        text-shadow: 0 0 5px #ee00ff, 0 0 10px #ee00ff;
     }
     to {
-        text-shadow: 0 0 10px #7900ff, 0 0 20px #7900ff;
+        text-shadow: 0 0 10px #ee00ff, 0 0 20px #ee00ff;
     }
 }
 
